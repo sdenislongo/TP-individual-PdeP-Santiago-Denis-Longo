@@ -41,6 +41,6 @@ class AbonoVip{
     var property porcentajeDeDescuento
 
     method bonificar(){
-        porcentajeDeDescuento += porcentajeDeDescuento/100
+        porcentajeDeDescuento += 1
     }
 }
