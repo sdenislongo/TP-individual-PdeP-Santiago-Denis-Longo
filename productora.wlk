@@ -20,11 +20,7 @@ object productora{
 
     method entradasVendidasPor(banda) = self.todasLasEntradas().count({entrada => entrada.banda() == banda})
 
-    //method bandasDeTodasLasEntradas() = self.todasLasEntradas().map({entrada => entrada.banda()})
-
     method bandaMasPopular() = bandas.max({banda => self.entradasVendidasPor(banda)})
-    
-    //self.bandasDeTodasLasEntradas().asSet().max({banda => self.bandasDeTodasLasEntradas().occurrencesOf(banda)})
 
     method listaAbonos() = asistentes.map({asistente => asistente.abono()})
 
