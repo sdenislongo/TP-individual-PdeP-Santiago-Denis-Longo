@@ -38,7 +38,7 @@ object abonoFan{
 }
 
 class AbonoVip{
-    var porcentajeDeDescuento
+    var property porcentajeDeDescuento
 
     method bonificar(){
         porcentajeDeDescuento += porcentajeDeDescuento/100
