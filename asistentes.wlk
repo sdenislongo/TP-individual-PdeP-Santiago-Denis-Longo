@@ -25,7 +25,7 @@ class Asistente{
 
     method nombreBandas() = historialEntradas.map({entrada => entrada.banda().nombre()})
 
-    method gastoEnEntradas() = historialEntradas.sum({entrada => entrada.precioAlPublico()}) //PREGUNTAR 
+    method gastoEnEntradas() = historialEntradas.sum({entrada => entrada.precioAlPublico()}) 
 
     method cantEntradasCompradas() = historialEntradas.size()
 }
