@@ -31,7 +31,7 @@ class Asistente{
 }
 
 object abonoFan{
-    var property porcentajeDeDescuento = 0
+    const property porcentajeDeDescuento = 0
     method bonificar(){
         return
     }
