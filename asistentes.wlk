@@ -23,7 +23,7 @@ class Asistente{
  
     method entradasAñoPasado() = historialEntradas.filter({entrada => entrada.esDeAñoPasado()})
 
-    method nombreBandas() = historialEntradas.map({entrada => entrada.banda()})
+    method nombreBandas() = historialEntradas.map({entrada => entrada.banda().nombre()})
 
     method gastoEnEntradas() = historialEntradas.sum({entrada => entrada.precioAlPublico()}) //PREGUNTAR 
 
