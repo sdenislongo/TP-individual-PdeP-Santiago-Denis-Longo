@@ -29,7 +29,7 @@ class BandaTrap inherits Banda{
         }
     }
 
-    override method canon() = self.popularidad() * self.popularidad()
+    override method canon() = super() * self.popularidad()
 }
 
 
