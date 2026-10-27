@@ -8,6 +8,14 @@ object productora{
     const asistentes = []
     const bandas = #{}
 
+    method agregarAsistente(asistente) {
+        asistentes.add(asistente)
+    }
+
+    method agregarBanda(banda) {
+        bandas.add(banda)
+    }
+
     method recaudacionEntradas() = asistentes.sum({asistente => asistente.gastoEnEntradas()})
 
     method gastoEnPresupuestos() = bandas.sum({banda => banda.presupuesto()})
