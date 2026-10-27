@@ -17,7 +17,7 @@ class Asistente{
             historialEntradas.add(entrada)
             dineroDisponible -= self.montoAPagar(entrada)
         } else {
-            throw new Exception(message = "Saldo insuficiente para adquirir la entrada")  //JUSTIFICAR QUE NO CREO UNA NUEVA CLASE PORQUE NO HAY OTRA EXCEPCION EN EL CODIGO, NO ES NECESARIO
+            throw new Exception(message = "Saldo insuficiente para adquirir la entrada")  //El trabajo tiene un único caso que requiere el manejo de excepciones, por lo que no es necesario crear clases de excepciones según su tipo
         }
     }
  
