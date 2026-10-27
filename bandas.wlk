@@ -1,5 +1,5 @@
 class Banda{
-    const nombre
+    const property nombre
     
     method gastoExtra()
     method canon() = 1000000
