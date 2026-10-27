@@ -5,7 +5,7 @@ import entradas.*
 
 object productora{
     var property impuesto = 10
-    const asistentes = []
+    const asistentes = #{}
     const bandas = #{}
 
     method agregarAsistente(asistente) {
