@@ -20,7 +20,7 @@ object productora{
 
     method gastoEnPresupuestos() = bandas.sum({banda => banda.presupuesto()})
 
-    method gananciaTotal() = self.recaudacionEntradas() - self.gastoEnPresupuestos() // PREGUNTAR
+    method gananciaTotal() = self.recaudacionEntradas() - self.gastoEnPresupuestos()
 
     method cantEntradasVendidas() = asistentes.sum({asistente => asistente.cantEntradasCompradas()})
 
