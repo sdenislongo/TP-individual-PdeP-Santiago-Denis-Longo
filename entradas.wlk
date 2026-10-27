@@ -10,7 +10,7 @@ class Entrada{
 
     method esDeAñoPasado(){
         const hoy = new Date()
-        fecha.year() == hoy.year()-1
+        return fecha.year() == hoy.year()-1
     }
 
 }
